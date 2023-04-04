@@ -66,6 +66,5 @@ def ask(query, top_k=5, gen_minlength=10, gen_maxlength=40):
     return f'{answer}\n\nContext:\n{context_str}'
 
 
-
 if __name__ == '__main__':
     ask("Chi è giuppa?", top_k=5, gen_minlength=5, gen_maxlength=50)
